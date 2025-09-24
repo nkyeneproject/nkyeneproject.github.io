@@ -23,11 +23,11 @@ export default function Home() {
 
       <section className="max-w-5xl mx-auto py-16 px-6 space-y-6 text-lg leading-relaxed">
         <h2 className="text-3xl font-semibold text-center text-green">
-          Join us in safeguarding the turtles along Ghana's coast
+          Join us in safeguarding the turtles along Ghana’s coast
         </h2>
         <p className="text-green text-center max-w-3xl mx-auto">
           This is our very first turtle season, and it’s a season of exploration. 
-          We're here to learn what works, build connections with the community, 
+          We’re here to learn what works, build connections with the community, 
           and figure out how our project can make the greatest impact not only for 
           the turtles but the people, and the coastline we share.
         </p>
@@ -50,7 +50,7 @@ export default function Home() {
             </li>
           </ul>
           <p className="text-center text-green max-w-3xl mx-auto">
-            We're starting small, but dreaming big. And we'd love for you to join us on this journey.
+            We’re starting small, but dreaming big. And we’d love for you to join us on this journey.
           </p>
         </div>
       </section>
@@ -78,7 +78,7 @@ export default function Home() {
 
       <section className="max-w-5xl mx-auto py-16 px-6 space-y-4 text-lg text-green">
         <h2 className="text-3xl font-semibold text-center text-green">Contact Us</h2>
-        <p className="text-center">Got questions? Want to get involved? We'd love to hear from you.</p>
+        <p className="text-center">Got questions? Want to get involved? We’d love to hear from you.</p>
         <div className="text-center space-y-2">
         <p>
           Email: <a href="mailto:info@nkyeneproject.org" className="text-teal-2 hover:underline">info@nkyeneproject.org</a>
