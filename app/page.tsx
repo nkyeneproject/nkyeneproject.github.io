@@ -5,7 +5,7 @@ export default function Home() {
     <main className="flex flex-col min-h-screen bg-white">
       <header className="relative w-full h-[400px] md:h-[500px] lg:h-[600px]">
         <Image
-          src="/hatchlings.jpg"
+          src="/turtle-hatchlings.jpg"
           alt="Sea turtle hatchlings"
           fill
           className="object-cover brightness-75"
