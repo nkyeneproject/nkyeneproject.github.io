@@ -84,7 +84,7 @@ export default function Home() {
           Email: <a href="mailto:info@nkyeneproject.org" className="text-teal-2 hover:underline">info@nkyeneproject.org</a>
         </p>
         <p>
-          Instagram: <a href="https://instagram.com/nkyeneproject" target="_blank" rel="noopener noreferrer" className="text-teal-2 hover:underline">@nkyeneproject</a>
+          Instagram: <a href="https://instagram.com/nkyene_project" target="_blank" rel="noopener noreferrer" className="text-teal-2 hover:underline">@nkyene_project</a>
         </p>
         </div>
       </section>
