@@ -11,6 +11,15 @@ export default function Home() {
           className="object-cover brightness-75"
           priority
         />
+        <div className="absolute top-2 right-2 w-18 h-18 md:w-28 md:h-28 lg:w-36 lg:h-36">
+          <Image
+            src="/logo.jpg"
+            alt="Nkyene Turtle Project logo"
+            fill
+            sizes="(max-width: 768px) 80px, (max-width: 1024px) 112px, 144px"
+            className="rounded-full"
+          />
+        </div>
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-6">
           <h1 className="text-4xl md:text-6xl font-bold max-w-4xl drop-shadow-lg">
             Welcome to the Nkyene Turtle Project
