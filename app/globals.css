@@ -2,7 +2,7 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: var(--color-teal-4);
 }
 
 @theme inline {
@@ -23,7 +23,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: var(--color-teal-4);
     --foreground: #ededed;
   }
 }
@@ -34,6 +34,38 @@ body {
   font-family: var(--font-sans), Arial, Helvetica, sans-serif;
 }
 
-h1 {
+h1, h2 {
   font-family: var(--font-headland-one);
+}
+
+@keyframes slide-left {
+  0% {
+    opacity: 0;
+    transform: translateX(40px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-right {
+  0% {
+    opacity: 0;
+    transform: translateX(-40px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-slide-left {
+  animation: slide-left 0.45s ease-out forwards;
+}
+
+.animate-slide-right {
+  animation: slide-right 0.45s ease-out forwards;
 }
