@@ -1,0 +1,50 @@
+{
+  "hero": {
+    "backgroundImage": {
+      "src": "/turtle-hatchlings.webp",
+      "alt": "Sea turtle hatchlings"
+    },
+    "logoImage": {
+      "src": "/logo.webp",
+      "alt": "Nkyene Turtle Project logo"
+    },
+    "title": "Welcome to the Nkyene Turtle Project",
+    "subtitle": "Protecting Ghana’s sea turtles through community-driven conservation"
+  },
+  "introSection": {
+    "title": "Join us in safeguarding the turtles along Ghana’s coast",
+    "body": "This is our very first turtle season, and it’s a season of exploration. We’re here to learn what works, build connections with the community, and figure out how our project can make the greatest impact not only for the turtles but the people, and the coastline we share."
+  },
+  "focusSection": {
+    "title": "Our Focus This Year",
+    "items": [
+      "Collecting vital data on sea turtle activity that is currently lacking in western Africa",
+      "Building our first hatchery, a safe space where vulnerable nests can be relocated and monitored",
+      "Assessing the threats to nesting turtles in the area and strengthening relationships with the local communities"
+    ],
+    "footer": "We’re starting small, but dreaming big. And we’d love for you to join us on this journey."
+  },
+  "donateSection": {
+    "title": "Support our GoFundMe",
+    "body": "The project urgently needs funds to hire local community members for beach patrols, as the current team of three cannot adequately protect turtles and their nests from poaching. The first priority is to employ two ex-poachers, whose experience with nesting sites and commitment to conservation will strengthen patrols. Providing them with paid, legal work offers a sustainable alternative to poaching, builds trust, and demonstrates that the conservation effort is a collaborative initiative with the community.",
+    "donateButton": {
+      "text": "Donate on GoFundMe",
+      "url": "https://www.gofundme.com/f/help-poachers-become-turtle-protectors"
+    },
+    "footer": "Together, we can shape a future where Ghana’s beaches are safe for turtles."
+  },
+  "contactSection": {
+    "title": "Contact Us",
+    "body": "Got questions? Want to get involved? We’d love to hear from you.",
+    "email": {
+      "text": "Email: ",
+      "label": "info@nkyeneproject.org",
+      "href": "mailto:info@nkyeneproject.org"
+    },
+    "instagram": {
+      "text": "Instagram: ",
+      "label": "@nkyene_project",
+      "href": "https://instagram.com/nkyene_project"
+    }
+  }
+}
